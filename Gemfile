@@ -30,6 +30,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'pg', '0.17.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
@@ -42,10 +43,10 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 group :development do
-	gem 'pg'
+	gem 'rspec-rails', '3.0.1'
 end
 
 group :test do
-	gem 'selenium-webdriver'
-	gem 'capybara'
+	gem 'selenium-webdriver', '2.42.0'
+	gem 'capybara', '2.4.1'
 end

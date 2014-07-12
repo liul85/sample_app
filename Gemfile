@@ -44,9 +44,9 @@ gem 'pg', '0.17.1'
 # gem 'debugger', group: [:development, :test]
 group :development do
 	gem 'rspec-rails', '3.0.1'
+  gem 'capybara', '2.4.1'
 end
 
 group :test do
 	gem 'selenium-webdriver', '2.42.0'
-	gem 'capybara', '2.4.1'
 end
